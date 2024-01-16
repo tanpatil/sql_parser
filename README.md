@@ -12,52 +12,96 @@ Run main.py with the SQL query as a command line argument.
 
 Here are some example queries:
 
--- Correct Select with Columns and Simple Where
-```sql
-SELECT state, pop FROM table WHERE region = 'East';
-```
+#### Correct Select with Columns and Simple Where
 
--- Correct Select with All Columns (*)
-```sql
-SELECT * FROM table;
-```
+- `SELECT state, pop FROM table WHERE region = 'East';`
 
--- Incorrect Select Statement (Misspelled Keyword)
-```sql
-SELET state, region FROM table WHERE pop > 30;
-```
+#### Correct Select with All Columns (\*)
 
--- Correct Select with Multiple Where Conditions
-```sql
-SELECT region, pop_male, pop_female FROM table WHERE pop < 50 AND state = 'Texas';
-```
+- `SELECT * FROM table;`
 
--- Select with Non-existent Column Name
-```sql
-SELECT city FROM table WHERE state = 'Florida';
-```
+#### Incorrect Select Statement (Misspelled Keyword)
 
--- Correct Select with Limit Clause
-```sql
-SELECT state, pop FROM table LIMIT 5;
-```
+- `SELET state, region FROM table WHERE pop > 30;`
 
--- Select with Incorrect Limit Value (Non-integer)
-```sql
-SELECT state, region FROM table LIMIT 'five';
-```
+#### Correct Select with Multiple Where Conditions
 
--- Select with Complex Where Condition (AND, OR)
-```sql
-SELECT state, pop FROM table WHERE (pop_male > 20 AND region = 'West') OR pop_female < 15;
-```
+- `SELECT region, pop_male, pop_female FROM table WHERE pop < 50 AND state = 'Texas';`
 
--- Select with Incorrect Syntax in Where Clause
-```sql
-SELECT state, pop_male FROM table WHERE pop >;
-```
+#### Select with Non-existent Column Name
 
--- Correct Select with All Columns and No Where Clause
-```sql
-SELECT * FROM table;
-```
+- `SELECT city FROM table WHERE state = 'Florida';`
+
+#### Correct Select with Limit Clause
+
+- `SELECT state, pop FROM table LIMIT 5;`
+
+#### Select with Incorrect Limit Value (Non-integer)
+
+- `SELECT state, region FROM table LIMIT 'five';`
+
+#### Select with Complex Where Condition (AND, OR)
+
+- `SELECT state, pop FROM table WHERE (pop_male > 20 AND region = 'West') OR pop_female < 15;`
+
+#### Select with Incorrect Syntax in Where Clause
+
+- `SELECT state, pop_male FROM table WHERE pop >;`
+
+#### Correct Select with All Columns and No Where Clause
+
+- `SELECT * FROM table;`
+
+#### Faulty Spelling of SELECT
+
+- `SELEC state FROM table;`
+
+#### Incorrect/Missing Column Names
+
+- `SELECT non_existent_column FROM table;`
+- `SELECT state, FROM table;`
+
+#### Multiple Columns
+
+- `SELECT state, region, pop FROM table;`
+
+#### Missing FROM Clause
+
+- `SELECT state WHERE pop > 20;`
+
+#### Incorrect Table Name
+
+- `SELECT state FROM non_existent_table;`
+
+#### Missing WHERE Clause
+
+- `SELECT state, pop;`
+
+#### Incorrect WHERE Clause
+
+- `SELECT state FROM table WHERE non_existent_column > 20;`
+
+#### Nested WHERE Clause
+
+- `SELECT state FROM table WHERE region = 'South' AND (pop > 20 OR pop_male > 10);`
+
+#### Missing LIMIT Clause
+
+- `SELECT state FROM table;`
+
+#### Incorrect LIMIT Clause
+
+- `SELECT state FROM table LIMIT twenty;`
+
+#### Large LIMIT Clause
+
+- `SELECT state FROM table LIMIT 1000000;`
+
+#### With and Without Parentheses
+
+- `SELECT state FROM table WHERE (region = 'South');`
+- `SELECT state FROM table WHERE region = 'South';`
+
+#### Fail Silently
+
+- `SELECT state FROM table WHERE;`

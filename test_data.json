@@ -1,0 +1,142 @@
+[
+    {
+        "state": "North Carolina",
+        "region": "Northeast",
+        "pop": 92,
+        "pop_male": 15,
+        "pop_female": 77
+    },
+    {
+        "state": "Florida",
+        "region": "East",
+        "pop": 66,
+        "pop_male": 26,
+        "pop_female": 40
+    },
+    {
+        "state": "California",
+        "region": "Northeast",
+        "pop": 89,
+        "pop_male": 34,
+        "pop_female": 55
+    },
+    {
+        "state": "North Carolina",
+        "region": "Northeast",
+        "pop": 11,
+        "pop_male": 4,
+        "pop_female": 7
+    },
+    {
+        "state": "North Carolina",
+        "region": "East",
+        "pop": 69,
+        "pop_male": 33,
+        "pop_female": 36
+    },
+    {
+        "state": "Georgia",
+        "region": "West",
+        "pop": 11,
+        "pop_male": 2,
+        "pop_female": 9
+    },
+    {
+        "state": "California",
+        "region": "Midwest",
+        "pop": 32,
+        "pop_male": 9,
+        "pop_female": 23
+    },
+    {
+        "state": "Florida",
+        "region": "Midwest",
+        "pop": 94,
+        "pop_male": 36,
+        "pop_female": 58
+    },
+    {
+        "state": "Michigan",
+        "region": "Northeast",
+        "pop": 31,
+        "pop_male": 4,
+        "pop_female": 27
+    },
+    {
+        "state": "Georgia",
+        "region": "West",
+        "pop": 85,
+        "pop_male": 1,
+        "pop_female": 84
+    },
+    {
+        "state": "New York",
+        "region": "Northeast",
+        "pop": 23,
+        "pop_male": 7,
+        "pop_female": 16
+    },
+    {
+        "state": "Georgia",
+        "region": "South",
+        "pop": 60,
+        "pop_male": 12,
+        "pop_female": 48
+    },
+    {
+        "state": "Illinois",
+        "region": "West",
+        "pop": 43,
+        "pop_male": 6,
+        "pop_female": 37
+    },
+    {
+        "state": "Texas",
+        "region": "Northeast",
+        "pop": 85,
+        "pop_male": 11,
+        "pop_female": 74
+    },
+    {
+        "state": "Pennsylvania",
+        "region": "West",
+        "pop": 94,
+        "pop_male": 47,
+        "pop_female": 47
+    },
+    {
+        "state": "Texas",
+        "region": "East",
+        "pop": 89,
+        "pop_male": 8,
+        "pop_female": 81
+    },
+    {
+        "state": "Georgia",
+        "region": "East",
+        "pop": 92,
+        "pop_male": 11,
+        "pop_female": 81
+    },
+    {
+        "state": "Illinois",
+        "region": "Northeast",
+        "pop": 8,
+        "pop_male": 4,
+        "pop_female": 4
+    },
+    {
+        "state": "Illinois",
+        "region": "East",
+        "pop": 28,
+        "pop_male": 11,
+        "pop_female": 17
+    },
+    {
+        "state": "Ohio",
+        "region": "East",
+        "pop": 44,
+        "pop_male": 4,
+        "pop_female": 40
+    }
+]

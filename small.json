@@ -1,0 +1,6 @@
+[
+    {"state": "California", "region": "West", "pop": 11, "pop_male": 5, "pop_female": 6},
+    {"state": "Texas", "region": "South", "pop": 20, "pop_male": 9, "pop_female": 11},
+    {"state": "New York", "region": "East", "pop": 40, "pop_male": 19, "pop_female": 21},
+    {"state": "Florida", "region": "South", "pop": 60, "pop_male": 31, "pop_female": 29}
+]
