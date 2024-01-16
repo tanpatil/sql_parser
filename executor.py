@@ -1,5 +1,4 @@
 import operator
-import math
 
 def evaluate_condition(condition, record):
     if len(condition) == 1:
